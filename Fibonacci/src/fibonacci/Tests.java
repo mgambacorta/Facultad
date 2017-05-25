@@ -1,9 +1,5 @@
 package fibonacci;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 public class Tests {
 	public static void main(String[] args) {

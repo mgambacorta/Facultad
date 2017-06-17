@@ -1,33 +1,6 @@
-<<<<<<< HEAD
 INDEX VERSION 1.130+C:\GIT-WORKSPACE\ProgramacionAvanzada\.metadata\.plugins\org.eclipse.jdt.core
 1387455045.index
 4267160747.index
 218080732.index
 2346939430.index
 4214825137.index
-=======
-INDEX VERSION 1.130+C:\ECLIPSE-WORKAREA\ProgramacionAvanzada\.metadata\.plugins\org.eclipse.jdt.core
-3726721386.index
-194205294.index
-2346939430.index
-843494433.index
-1841280308.index
-2911469802.index
-4214825137.index
-4267160747.index
-218080732.index
-1525087677.index
-1539866187.index
-2221491804.index
-543038442.index
-30881555.index
-1387455045.index
-3643810303.index
-91472061.index
-2997567257.index
-3314433690.index
-449440424.index
-1475717011.index
-2561179376.index
-1199826107.index
->>>>>>> master

@@ -12,16 +12,5 @@ public abstract class Grafo {
 
 	public abstract void generar();
 	
-	public void colorearAleatorio() {
-		
-	}
 	
-	public void colorearWelshPowell() {
-		
-	}
-	
-	public void colorearMatula() {
-		
-	}
 }
-

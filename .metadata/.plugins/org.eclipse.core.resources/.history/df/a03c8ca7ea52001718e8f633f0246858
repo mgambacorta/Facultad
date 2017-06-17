@@ -1,0 +1,30 @@
+package grafos;
+
+public class Grafo {
+	private MatrizSimetrica grafo;
+	
+	public Grafo() { 
+	}
+	
+	public MatrizSimetrica generadorAleatorioProbabilidad(int orden, double probabilidad) {
+		grafo = new MatrizSimetrica(orden);
+
+		for(int i = 1; i < orden; i++) {
+			for(int j = i; j <= orden; j++) {
+
+				double rand = Math.random();
+				if (rand <= probabilidad ) {
+					grafo.setValorArista(i, j, 1);
+				}
+			}
+		}
+		return grafo;
+	}
+	
+	public MatrizSimetrica generadorAleatorioPorcentaje(int orden, double porcentaje) {
+		
+		
+		
+		return grafo;
+	}
+}

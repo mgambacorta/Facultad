@@ -12,10 +12,6 @@ public abstract class Grafo {
 
 	public abstract void generar();
 	
-	public MatrizSimetrica getMatriz() {
-		return grafo;
-	}
-	
 	public void colorearAleatorio() {
 		
 	}

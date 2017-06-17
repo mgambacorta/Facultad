@@ -1,0 +1,21 @@
+package grafos;
+
+public class GrafoRegular extends Grafo{
+
+	private int grado;
+	
+	public GrafoRegular(int orden, int grado) {
+		super(orden);
+		this.grado = grado;
+	}
+
+	@Override
+	public void generar() {
+		if( grado >= orden ) {
+			System.out.println("No se puede generar un grafo de grado mayor a orden - 1");
+			return;
+		}
+		
+	}
+
+}

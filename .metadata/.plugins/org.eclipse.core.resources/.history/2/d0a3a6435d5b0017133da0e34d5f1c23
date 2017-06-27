@@ -1,0 +1,16 @@
+package algoritmos;
+
+public class Dijktra {
+	private static final int INFINITO = 999999;
+	private Grafo grafo;
+	private int[] distancias;
+	private int[] recorrido;
+	private boolean[] visto;
+	
+	private int nodoInicial;
+
+	public Dijktra(Grafo grafo, int nodoInicial) {
+		this.grafo = grafo;
+		this.nodoInicial = nodoInicial;
+	}
+}

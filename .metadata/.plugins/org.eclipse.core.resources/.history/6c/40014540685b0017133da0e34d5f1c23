@@ -1,0 +1,25 @@
+package algoritmos;
+
+public class Floyd {
+
+	private int[][] matriz;
+	private Grafo grafo;
+	
+	public Floyd(Grafo grafo) {
+		this.grafo = grafo;
+		matriz = new int[grafo.getGrado()][grafo.getGrado()];
+		
+		for(int i = 0; i < grafo.getGrado(); i++) {
+			for(int j = 0; j < grafo.getGrado(); j++) {
+				if( i == j) {
+					matriz[i][j] = 0;
+				} else {
+					matriz[i][j] = grafo.getValorArista(i + 1, j + 1);
+				}
+			}
+		}
+	}
+	
+	
+	
+}

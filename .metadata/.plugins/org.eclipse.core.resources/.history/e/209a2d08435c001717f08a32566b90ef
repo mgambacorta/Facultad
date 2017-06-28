@@ -61,19 +61,17 @@ public class Dijktra {
 		return distancias[nodoFinal];
 	}
 	
-	public String printRecorrido(int nodoFinal) {
-		if(distancias[nodoFinal] != Grafo.INFINITO) {
-			return "No existe recorrido desde " + nodoInicial + " hasta " + nodoFinal;
-		}
-		
-		return calcularRecorrido(nodoFinal) + nodoFinal;
-	}
+//	public String printRecorrido(int nodoFinal) {
+//		String aux;
+//		
+//		if(distancias[nodoFinal] != Grafo.INFINITO) {
+//			return "No existe recorrido desde " + nodoInicial + " hasta " + nodoFinal;
+//		}
+//			
+//		
+//		return aux;
+//	}
 	
-	private String calcularRecorrido(int nodoFinal) {
-		String aux = recorrido[nodoFinal] == nodoInicial ? nodoInicial + " --> " : calcularRecorrido(recorrido[nodoFinal]);
-		return aux;
-	}
-
 	private int getMenor() {
 		int nodo = Grafo.INFINITO;
 		

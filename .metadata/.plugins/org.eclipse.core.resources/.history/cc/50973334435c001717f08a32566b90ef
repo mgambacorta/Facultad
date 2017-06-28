@@ -73,7 +73,7 @@ public class Dijktra {
 		String aux = recorrido[nodoFinal] == nodoInicial ? nodoInicial + " --> " : calcularRecorrido(recorrido[nodoFinal]);
 		return aux;
 	}
-
+	
 	private int getMenor() {
 		int nodo = Grafo.INFINITO;
 		

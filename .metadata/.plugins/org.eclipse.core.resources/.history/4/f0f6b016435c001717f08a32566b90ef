@@ -69,11 +69,11 @@ public class Dijktra {
 		return calcularRecorrido(nodoFinal) + nodoFinal;
 	}
 	
-	private String calcularRecorrido(int nodoFinal) {
+	public String calcularRecorrido(int nodoFinal) {
 		String aux = recorrido[nodoFinal] == nodoInicial ? nodoInicial + " --> " : calcularRecorrido(recorrido[nodoFinal]);
 		return aux;
 	}
-
+	
 	private int getMenor() {
 		int nodo = Grafo.INFINITO;
 		

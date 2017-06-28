@@ -2,7 +2,7 @@ package algoritmos;
 
 public class Grafo {
 	
-	public static final int INFINITO = 9999;
+	public static final int INFINITO = 99999;
 	private int[][] matriz; 
 	private int grado;
 	

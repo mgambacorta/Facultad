@@ -25,12 +25,6 @@ public class Grafo {
 		return this.grado;
 	}
 	
-	public void setValorArista(int nodo1, int nodo2, int valor) {
-		if(nodo1 > 0 && nodo1 <= this.grado && nodo2 > 0 && nodo2 <= this.grado) {
-			this.matriz[nodo1 - 1][nodo2 - 1] = valor;
-		}		
-	}
-	
 	public int getValorArista(int nodo1, int nodo2) {
 		if(nodo1 > 0 && nodo1 <= this.grado && nodo2 > 0 && nodo2 <= this.grado) {
 			return this.matriz[nodo1 - 1][nodo2 - 1];

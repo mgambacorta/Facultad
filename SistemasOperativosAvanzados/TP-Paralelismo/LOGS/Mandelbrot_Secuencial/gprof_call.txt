@@ -1,0 +1,118 @@
+gprof -b mandelbrot.exe -q -b
+			Call graph
+
+
+granularity: each sample hit covers 4 byte(s) for 0.09% of 10.73 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     41.0    0.00    4.40                 main [1]
+                0.38    4.02    6400/6400        MandelbrotCalculate(std::complex<double>, int) [2]
+                0.00    0.00    6400/70413510     std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&) [8]
+                0.00    0.00    6400/281641241     std::complex<double>::real() const [12]
+                0.00    0.00    6400/281641241     std::complex<double>::imag() const [14]
+                0.00    0.00       1/1           std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&) [18]
+                0.00    0.00    6402/6402        std::complex<double>::complex(double, double) [126]
+                0.00    0.00       1/1           std::complex<double> std::operator/<double>(std::complex<double> const&, double const&) [128]
+                0.00    0.00       1/1           tiempoInicial [20]
+                0.00    0.00       1/1           tiempoFinal [19]
+-----------------------------------------------
+                0.38    4.02    6400/6400        main [1]
+[2]     41.0    0.38    4.02    6400         MandelbrotCalculate(std::complex<double>, int) [2]
+                0.41    2.14 211221330/211221330     std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&) [4]
+                0.24    0.63 70407110/70413510     std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&) [8]
+                0.31    0.29 70412806/70412806     double std::abs<double>(std::complex<double> const&) [10]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     24.3    2.61    0.00                 __fentry__ [3]
+-----------------------------------------------
+                0.41    2.14 211221330/211221330     MandelbrotCalculate(std::complex<double>, int) [2]
+[4]     23.7    0.41    2.14 211221330         std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&) [4]
+                1.89    0.25 211221330/211221330     std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&) [5]
+-----------------------------------------------
+                1.89    0.25 211221330/211221330     std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&) [4]
+[5]     19.9    1.89    0.25 211221330         std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&) [5]
+                0.13    0.00 211221330/281641241     std::complex<double>::real() const [12]
+                0.11    0.00 211221330/281641241     std::complex<double>::imag() const [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]     18.2    1.95    0.00                 _mcount_private [6]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]     12.3    1.32    0.00                 __muldc3 [7]
+-----------------------------------------------
+                0.00    0.00    6400/70413510     main [1]
+                0.24    0.63 70407110/70413510     MandelbrotCalculate(std::complex<double>, int) [2]
+[8]      8.1    0.24    0.63 70413510         std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&) [8]
+                0.55    0.08 70413510/70413510     std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&) [9]
+-----------------------------------------------
+                0.55    0.08 70413510/70413510     std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&) [8]
+[9]      5.9    0.55    0.08 70413510         std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&) [9]
+                0.05    0.00 70413510/281641241     std::complex<double>::real() const [12]
+                0.04    0.00 70413510/281641241     std::complex<double>::imag() const [14]
+-----------------------------------------------
+                0.31    0.29 70412806/70412806     MandelbrotCalculate(std::complex<double>, int) [2]
+[10]     5.6    0.31    0.29 70412806         double std::abs<double>(std::complex<double> const&) [10]
+                0.18    0.00 70412806/70412806     std::complex<double>::__rep() const [13]
+                0.11    0.00 70412806/70412806     std::__complex_abs(doublecomplex ) [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]     4.1    0.44    0.00                 hypot [11]
+-----------------------------------------------
+                0.00    0.00       1/281641241     std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&) [17]
+                0.00    0.00    6400/281641241     main [1]
+                0.05    0.00 70413510/281641241     std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&) [9]
+                0.13    0.00 211221330/281641241     std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&) [5]
+[12]     1.7    0.18    0.00 281641241         std::complex<double>::real() const [12]
+-----------------------------------------------
+                0.18    0.00 70412806/70412806     double std::abs<double>(std::complex<double> const&) [10]
+[13]     1.7    0.18    0.00 70412806         std::complex<double>::__rep() const [13]
+-----------------------------------------------
+                0.00    0.00       1/281641241     std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&) [17]
+                0.00    0.00    6400/281641241     main [1]
+                0.04    0.00 70413510/281641241     std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&) [9]
+                0.11    0.00 211221330/281641241     std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&) [5]
+[14]     1.4    0.15    0.00 281641241         std::complex<double>::imag() const [14]
+-----------------------------------------------
+                0.11    0.00 70412806/70412806     double std::abs<double>(std::complex<double> const&) [10]
+[15]     1.0    0.11    0.00 70412806         std::__complex_abs(doublecomplex ) [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     0.1    0.01    0.00                 cabs [16]
+-----------------------------------------------
+                0.00    0.00       1/1           std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&) [18]
+[17]     0.0    0.00    0.00       1         std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&) [17]
+                0.00    0.00       1/281641241     std::complex<double>::real() const [12]
+                0.00    0.00       1/281641241     std::complex<double>::imag() const [14]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[18]     0.0    0.00    0.00       1         std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&) [18]
+                0.00    0.00       1/1           std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[19]     0.0    0.00    0.00       1         tiempoFinal [19]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[20]     0.0    0.00    0.00       1         tiempoInicial [20]
+-----------------------------------------------
+                0.00    0.00    6402/6402        main [1]
+[126]    0.0    0.00    0.00    6402         std::complex<double>::complex(double, double) [126]
+-----------------------------------------------
+                0.00    0.00       1/1           std::complex<double> std::operator/<double>(std::complex<double> const&, double const&) [128]
+[127]    0.0    0.00    0.00       1         std::complex<double>::operator/=(double) [127]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[128]    0.0    0.00    0.00       1         std::complex<double> std::operator/<double>(std::complex<double> const&, double const&) [128]
+                0.00    0.00       1/1           std::complex<double>::operator/=(double) [127]
+-----------------------------------------------
+
+Index by function name
+
+   [2] MandelbrotCalculate(std::complex<double>, int) [9] std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&) [7] __muldc3
+  [14] std::complex<double>::imag() const [15] std::__complex_abs(doublecomplex ) [6] _mcount_private
+  [12] std::complex<double>::real() const [10] double std::abs<double>(std::complex<double> const&) [16] cabs
+  [13] std::complex<double>::__rep() const [128] std::complex<double> std::operator/<double>(std::complex<double> const&, double const&) [11] hypot
+ [126] std::complex<double>::complex(double, double) [18] std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&) [19] tiempoFinal
+ [127] std::complex<double>::operator/=(double) [4] std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&) [20] tiempoInicial
+  [17] std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&) [8] std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&)
+   [5] std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&) [3] __fentry__

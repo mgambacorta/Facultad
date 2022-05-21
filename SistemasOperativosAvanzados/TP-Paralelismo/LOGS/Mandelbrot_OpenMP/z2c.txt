@@ -1,0 +1,83 @@
+set OMP_NUM_THREADS=4 & mandelbrot.exe
+# MANDELBROT (Secuencial) 2017/11/12 19:41:44
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                            ,,,,,,,,,,,,,,,,    |
+                                                  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                       ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                   ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                             ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                          ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                        ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                      ,,,,,,,,,,,,,,,,,,,,cccccccccccccccccccccc,,,,,,,,,,,,,,,,|
+                    ,,,,,,,,,,,,,,cccccccccccccccccccccccccccccccccccccc,,,,,,,,|
+                  ,,,,,,,,,,,cccccccccccccccccccccccccc88888M@@MMM88888cccccc,,,|
+                 ,,,,,,,,ccccccccccccccccccccccccc88888888MM@@poj@@@M888888ccccc|
+                ,,,,,,cccccccccccccccccccccccc8888888888MMMM@jarEPoa@MM888888ccc|
+              ,,,,,,ccccccccccccccccccccccc88888888888MMMM@jawopEPpaj@MMM888888c|
+             ,,,,cccccccccccccccccccccccc8888888888MMMM@@jarcO    wG,a@MMMMM8888|
+            ,,,ccccccccccccccccccccccc8888888888MM@@@@jjjaarQ      Jgaaj@@@@MMMM|
+           ,,,ccccccccccccccccccccc88888888MMMM@jpGEgrwrgQOJJ.O   8O.woP.aajjagw|
+           ,cccccccccccccccccccc88888MMMMMMMM@@jjwgM  J8                c@gPGj.Q|
+          ,ccccccccccccccccc888MMMMMMMMMMM@@@@jappgJ                          Ga|
+         ,ccccccccccccc8888M@Qa@@@@@@@@@@@jjjaw..                            aEw|
+         ,cccccc88888888MMM@@JQrwwawoowaaaaaarg.                                |
+         ccc888888888MMMMM@@jawpP ,PG.gGQOorpoM                                E|
+        cc888888888MMMMMM@jjaGoQ,          QQP                                 c|
+        c88888888M@@@@@japopogG              w                                 g|
+        MMM@@jawjaaaaawapPJ   P              M                               Ewj|
+        MMM@@jawjaaaaawapPJ   P              M                               Ewj|
+        c88888888M@@@@@japopogG              w                                 g|
+        cc888888888MMMMMM@jjaGoQ,          QQP                                 c|
+         ccc888888888MMMMM@@jawpP ,PG.gGQOorpoM                                E|
+         ,cccccc88888888MMM@@JQrwwawoowaaaaaarg.                                |
+         ,ccccccccccccc8888M@Qa@@@@@@@@@@@jjjaw..                            aEw|
+          ,ccccccccccccccccc888MMMMMMMMMMM@@@@jappgJ                          Ga|
+           ,cccccccccccccccccccc88888MMMMMMMM@@jjwgM  J8                c@gPGj.Q|
+           ,,,ccccccccccccccccccccc88888888MMMM@jpGEgrwrgQOJJ.O   8O.woP.aajjagw|
+            ,,,ccccccccccccccccccccccc8888888888MM@@@@jjjaarQ      Jgaaj@@@@MMMM|
+             ,,,,cccccccccccccccccccccccc8888888888MMMM@@jarcO    wG,a@MMMMM8888|
+              ,,,,,,ccccccccccccccccccccccc88888888888MMMM@jawopEPpaj@MMM888888c|
+                ,,,,,,cccccccccccccccccccccccc8888888888MMMM@jarEPoa@MM888888ccc|
+                 ,,,,,,,,ccccccccccccccccccccccccc88888888MM@@poj@@@M888888ccccc|
+                  ,,,,,,,,,,,cccccccccccccccccccccccccc88888M@@MMM88888cccccc,,,|
+                    ,,,,,,,,,,,,,,cccccccccccccccccccccccccccccccccccccc,,,,,,,,|
+                      ,,,,,,,,,,,,,,,,,,,,cccccccccccccccccccccc,,,,,,,,,,,,,,,,|
+                        ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                          ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                             ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                   ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                       ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                            ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                                  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,|
+                                                            ,,,,,,,,,,,,,,,,    |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                |
+# Tiempo total: 9252.817 [ms]

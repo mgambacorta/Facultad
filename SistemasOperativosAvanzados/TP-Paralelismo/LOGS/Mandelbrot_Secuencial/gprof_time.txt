@@ -1,0 +1,28 @@
+gprof -b mandelbrot.exe -Q -b
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 24.32      2.61     2.61                             __fentry__
+ 18.17      4.56     1.95                             _mcount_private
+ 17.61      6.45     1.89 211221330     0.01     0.01  std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&)
+ 12.30      7.77     1.32                             __muldc3
+  5.13      8.32     0.55 70413510     0.01     0.01  std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&)
+  4.10      8.76     0.44                             hypot
+  3.82      9.17     0.41 211221330     0.00     0.01  std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&)
+  3.54      9.55     0.38     6400    59.38   687.49  MandelbrotCalculate(std::complex<double>, int)
+  2.89      9.86     0.31 70412806     0.00     0.01  double std::abs<double>(std::complex<double> const&)
+  2.24     10.10     0.24 70413510     0.00     0.01  std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&)
+  1.68     10.28     0.18 281641241     0.00     0.00  std::complex<double>::real() const
+  1.68     10.46     0.18 70412806     0.00     0.00  std::complex<double>::__rep() const
+  1.40     10.61     0.15 281641241     0.00     0.00  std::complex<double>::imag() const
+  1.03     10.72     0.11 70412806     0.00     0.00  std::__complex_abs(doublecomplex )
+  0.09     10.73     0.01                             cabs
+  0.00     10.73     0.00     6402     0.00     0.00  std::complex<double>::complex(double, double)
+  0.00     10.73     0.00        1     0.00     0.00  std::complex<double>::operator/=(double)
+  0.00     10.73     0.00        1     0.00     0.00  std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&)
+  0.00     10.73     0.00        1     0.00     0.00  std::complex<double> std::operator/<double>(std::complex<double> const&, double const&)
+  0.00     10.73     0.00        1     0.00     0.00  std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&)
+  0.00     10.73     0.00        1     0.00     0.00  tiempoFinal
+  0.00     10.73     0.00        1     0.00     0.00  tiempoInicial

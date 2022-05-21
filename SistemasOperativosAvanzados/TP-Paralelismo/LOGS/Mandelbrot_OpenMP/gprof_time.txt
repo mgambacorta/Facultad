@@ -1,0 +1,25 @@
+gprof -b mandelbrot.exe -Q -b
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00 247240025     0.00     0.00  std::complex<double>::imag() const
+  0.00      0.00     0.00 247240025     0.00     0.00  std::complex<double>::real() const
+  0.00      0.00     0.00 185420418     0.00     0.00  std::complex<double>& std::complex<double>::operator*=<double>(std::complex<double> const&)
+  0.00      0.00     0.00 185420418     0.00     0.00  std::complex<double> std::operator*<double>(std::complex<double> const&, std::complex<double> const&)
+  0.00      0.00     0.00 61813206     0.00     0.00  std::complex<double>& std::complex<double>::operator+=<double>(std::complex<double> const&)
+  0.00      0.00     0.00 61813206     0.00     0.00  std::complex<double> std::operator+<double>(std::complex<double> const&, std::complex<double> const&)
+  0.00      0.00     0.00 61812588     0.00     0.00  std::complex<double>::__rep() const
+  0.00      0.00     0.00 61812588     0.00     0.00  std::__complex_abs(doublecomplex )
+  0.00      0.00     0.00 61812588     0.00     0.00  double std::abs<double>(std::complex<double> const&)
+  0.00      0.00     0.00     6402     0.00     0.00  std::complex<double>::complex(double, double)
+  0.00      0.00     0.00     6400     0.00     0.00  MandelbrotCalculate(std::complex<double>, int)
+  0.00      0.00     0.00        1     0.00     0.00  std::complex<double>::operator/=(double)
+  0.00      0.00     0.00        1     0.00     0.00  std::complex<double>& std::complex<double>::operator-=<double>(std::complex<double> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::complex<double> std::operator/<double>(std::complex<double> const&, double const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::complex<double> std::operator-<double>(std::complex<double> const&, std::complex<double> const&)
+  0.00      0.00     0.00        1     0.00     0.00  tiempoFinal
+  0.00      0.00     0.00        1     0.00     0.00  tiempoInicial

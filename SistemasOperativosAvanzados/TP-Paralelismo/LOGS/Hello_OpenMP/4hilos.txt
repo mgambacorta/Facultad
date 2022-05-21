@@ -1,0 +1,10 @@
+set OMP_NUM_THREADS=4 & hello.exe
+# HELLO (Open MP) 2017/11/12 19:20:39
+Hola Mundo desde funA thead 1 to 4, 10s
+Hola Mundo desde funB thead 0 to 4, 20s
+Hola Mundo desde funC thead 2 to 4, 30s
+Hola Mundo desde funD thead 3 to 4, 40s
+Hola Mundo desde funE thead 0 to 4, 20s
+Hola Mundo desde funF thead 2 to 4, 30s
+Hola Mundo desde funG thead 3 to 4, 20s
+# Tiempo total: 90032.973 [ms]

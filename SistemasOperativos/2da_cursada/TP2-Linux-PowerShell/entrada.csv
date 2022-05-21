@@ -1,0 +1,6 @@
+ID;NOMBRE;CUIT;DIRECCION;TELEFONO
+1;cliente 1;30-1829224-3;Direccion 1;41842513
+2;cliente 2;;Direccion 2;46809131
+2;cliente 2;1;Direccion 2;46809132
+2;cliente 2;2;Direccion 2;46809133
+3;cliente 2;2;Direccion 2;46809134;;

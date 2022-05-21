@@ -1,0 +1,45 @@
+
+##################
+Se desmonta /dev/sdb1
+##################
+
+###Formatea EN NTFS EN 4KB=4096 bytes##
+
+##Tiempo Inicial##: 
+15:43:58:607798510 - 1436035438
+Initializing device with zeroes: - Done.
+Creating NTFS volume structures.
+mkntfs completed successfully. Have a nice day.
+##Tiempo Final:##
+15:52:33:691514995 - 1436028916
+##################
+Se monta /dev/sdb1
+##################
+
+Initializing device with zeroes: 100% - Done.
+Creating NTFS volume structures.
+Creating root directory (mft record 5)
+Creating $MFT (mft record 0)
+Creating $MFTMirr (mft record 1)
+Creating $LogFile (mft record 2)
+Creating $AttrDef (mft record 4)
+Creating $Bitmap (mft record 6)
+Creating $Boot (mft record 7)
+Creating backup boot sector.
+Creating $Volume (mft record 3)
+Creating $BadClus (mft record 8)
+Creating $Secure (mft record 9)
+Creating $UpCase (mft record 0xa)
+Creating $Extend (mft record 11)
+Creating system file (mft record 0xc)
+Creating system file (mft record 0xd)
+Creating system file (mft record 0xe)
+Creating system file (mft record 0xf)
+Creating $Quota (mft record 24)
+Creating $ObjId (mft record 25)
+Creating $Reparse (mft record 26)
+Syncing root directory index record.
+Syncing $Bitmap.
+Syncing $MFT.
+Updating $MFTMirr.
+Syncing device.

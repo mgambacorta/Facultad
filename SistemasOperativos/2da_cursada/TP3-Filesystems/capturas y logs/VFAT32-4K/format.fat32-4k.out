@@ -1,0 +1,22 @@
+
+##################
+Se desmonta /dev/sdb1
+##################
+
+###Formatea EN FAT32 -I EN 4KB=4096 bytes##
+
+##Tiempo Inicial##: 
+12:14:46:822616423 - 1436022886
+mkdosfs 3.0.12 (29 Oct 2011)
+/dev/sdb1 has 124 heads and 62 sectors per track,
+logical sector size is 512,
+using 0xf8 media descriptor, with 4194304 sectors;
+file system has 2 32-bit FATs and 8 sectors per cluster.
+FAT size is 4088 sectors, and provides 523262 clusters.
+There are 32 reserved sectors.
+Volume ID is 866cb5e2, no volume label.
+##Tiempo Final:##
+12:14:47:857341990 - 1436022887
+##################
+Se monta /dev/sdb1
+##################

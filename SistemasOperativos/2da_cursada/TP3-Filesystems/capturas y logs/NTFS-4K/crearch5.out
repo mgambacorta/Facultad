@@ -1,0 +1,9 @@
+Inicio e): 14:56:57:781653823 - 1436032617
+Fin e): 14:57:03:132512711 - 1436032623
+Se verifica el espacio -h
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1        2,0G   1,8G  241M  89% /media/usb
+Se verifica el espacio -i
+S.ficheros     Nodos-i NUsados NLibres NUso% Montado en
+/dev/sdb1       279116     -11  279127    0% /media/usb
+Fragmentacion

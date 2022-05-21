@@ -1,0 +1,15 @@
+Inicio c): 14:49:46:809591083 - 1435427386
+Fin c): 14:49:50:895204107 - 1435427390
+Se verifica el espacio -h
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1        2,0G   1,7G  208M  90% /media/usb
+Se verifica el espacio -i
+S.ficheros     Nodos-i NUsados NLibres NUso% Montado en
+/dev/sdb1       131072     525  130547    1% /media/usb
+Fragmentacion
+Paso 1: Verificando nodos-i, bloques y tamaños
+Paso 2: Verificando la estructura de directorios
+Paso 3: Revisando la conectividad de directorios
+Paso 4: Revisando las cuentas de referencia
+Paso 5: Revisando el resumen de información de grupos
+/dev/sdb1: 525/131072 files (3.6% non-contiguous), 445020/524288 blocks

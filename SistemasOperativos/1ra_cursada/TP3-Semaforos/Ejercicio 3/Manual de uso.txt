@@ -1,0 +1,24 @@
+###################### MANUAL DE USO #########################
+
+
+
+0)Posicionarse en el directorio /Ejercicio3
+
+1)Ejecutar make 
+
+2)Ejecutar ./Ej3 [Path]
+
+NOTA: [Path] Es el directorio en donde se desea analizar los archivos .c, .cpp, .h, .sh, .ini y makefile.
+		Si se lo deja en blanco se examina el directorio actual.
+
+
+a) Si el directorio ingresado es valido, el programa mostrara por pantalla el nombre del archivo generado
+con el resultado del análisis. Dicho archivo se genera siempre en el directorio en donde esta alojado el 
+programa. 
+
+b) Si el directorio es invalido, el programa emitira un mensaje indicativo.
+
+c) Para mas ayuda puede ejecutar ./Ej3 -h, ./Ej3 -? o ./Ej3 -help
+
+
+

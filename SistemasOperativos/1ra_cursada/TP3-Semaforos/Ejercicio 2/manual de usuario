@@ -1,0 +1,30 @@
+###################### MANUAL DE USO #########################
+
+
+
+0)Posicionarse en el directorio /Ejercicio2
+
+1)Ejecutar make 
+
+2)Ejecutar ./launcher <Archivo de operaciones> 
+
+NOTA: <Arch> Es el archivo que contendra todas las operaciones a realizar
+
+	
+
+a)Si el modo de ejecucion y los parametros ingresados son correctos, el
+
+programa generará el archivo con los resultados de las operaciones que fueron pasadas por medio del archivo de operaciones.
+
+
+
+
+
+b)Si el modo de uso fue incorrecto, el programa emitira un mensaje de ayuda.
+
+
+
+
+
+
+

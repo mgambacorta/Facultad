@@ -1,0 +1,21 @@
+El script anterior fue realizado por una persona con poca experiencia en PowerShell. Teniendo en cuenta los conceptos vistos en clase acerca de la orientación a objetos de PS,
+1. ¿Cree que se puede mejorar?
+2. ¿Cómo lo haría?
+
+1) Si se puede mejorar
+2) Cambiaríamos
+
+$find=0
+get-childitem -path $path$filer | ForEach-Object {$find=$find+1};
+
+por
+
+$find=(get-childitem -path .  | measure).Count
+
+Y
+
+get-childitem -path $path$filer | ForEach-Object {if($_.CreationTime -lt $fcre) {$file = $_.FullName; $fcre = $_.CreationTime}};
+
+por
+ 
+$file=(Get-ChildItem -Path $path$filer | Select-Object -Last 1).fullName

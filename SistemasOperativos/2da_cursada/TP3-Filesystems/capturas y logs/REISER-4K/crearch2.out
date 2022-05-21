@@ -1,0 +1,31 @@
+Inicio b): 16:43:46:281880110 - 1435434226
+100
+Fin b): 16:43:46:706138487 - 1435434226
+Se verifica el espacio -h
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1        2,0G   645M  1,4G  32% /media/usb
+Se verifica el espacio -i
+S.ficheros     Nodos-i NUsados NLibres NUso% Montado en
+/dev/sdb1            0       0       0     - /media/usb
+Fragmentacion
+###########
+reiserfsck --check started at Sat Jun 27 16:44:12 2015
+###########
+Replaying journal: Done.
+Reiserfs journal '/dev/sdb1' in blocks [18..8211]: 0 transactions replayed
+Checking internal tree.. finished
+Comparing bitmaps..finished
+Checking Semantic tree:
+finished
+No corruptions found
+There are on the filesystem:
+	Leaves 173
+	Internal nodes 3
+	Directories 2
+	Other files 513
+	Data block pointers 156672 (0 of them are zero)
+	Safe links 0
+###########
+reiserfsck finished at Sat Jun 27 16:44:14 2015
+###########
+

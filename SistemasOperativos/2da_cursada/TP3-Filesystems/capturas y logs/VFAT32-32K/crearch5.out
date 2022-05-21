@@ -1,0 +1,33 @@
+Inicio e): 13:28:51:776342635 - 1436027331
+Fin e): 13:28:52:137968463 - 1436027332
+Se verifica el espacio -h
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1        2,0G   1,8G  252M  88% /media/usb
+Se verifica el espacio -i
+S.ficheros     Nodos-i NUsados NLibres NUso% Montado en
+/dev/sdb1            0       0       0     - /media/usb
+Fragmentacion
+dosfsck 3.0.12 (29 Oct 2011)
+dosfsck 3.0.12, 29 Oct 2011, FAT32, LFN
+Checking we can access the last sector of the filesystem
+Warning: Filesystem is FAT32 according to fat_length and fat32_length fields,
+  but has only 65519 clusters, less than the required minimum of 65525.
+  This may lead to problems on some systems.
+Boot sector contents:
+System ID "mkdosfs"
+Media byte 0xf8 (hard disk)
+       512 bytes per logical sector
+     32768 bytes per cluster
+        64 reserved sectors
+First FAT starts at byte 32768 (sector 64)
+         2 FATs, 32 bit entries
+    262144 bytes per FAT (= 512 sectors)
+Root directory start at cluster 2 (arbitrary size)
+Data area starts at byte 557056 (sector 1088)
+     65519 data clusters (2146926592 bytes)
+62 sectors/track, 124 heads
+         0 hidden sectors
+   4194304 sectors total
+Checking for unused clusters.
+Checking free cluster summary.
+/dev/sdb1: 546 files, 57474/65519 clusters

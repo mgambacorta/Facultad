@@ -1,0 +1,38 @@
+
+##################
+Se desmonta /dev/sdb1
+##################
+
+###Formatea EN REISERFS EN 4KB=4096 bytes##
+
+##Tiempo Inicial##: 
+16:39:11:641876521 - 1435433951
+A pair of credits:
+Many persons came to www.namesys.com/support.html,  and got a question answered
+for $25, or just gave us a small donation there.
+
+Joshua Macdonald wrote the first draft of the transaction manager. Yuri Rupasov
+did testing  and benchmarking,  plus he invented the r5 hash  (also used by the
+dcache  code).  Yura  Rupasov,  Anatoly Pinchuk,  Igor Krasheninnikov,  Grigory
+Zaigralin,  Mikhail  Gilula,   Igor  Zagorovsky,  Roman  Pozlevich,  Konstantin
+Shvachko, and Joshua MacDonald are former contributors to the project.
+
+
+Guessing about desired format.. Kernel 3.2.0-86-generic is running.
+Format 3.6 with standard journal
+Count of blocks on the device: 524288
+Number of blocks consumed by mkreiserfs formatting process: 8227
+Blocksize: 4096
+Hash function used to sort names: "r5"
+Journal Size 8193 blocks (first block 18)
+Journal Max transaction length 1024
+inode generation number: 0
+UUID: c43d609c-b85e-4516-9b58-f053633373b9
+Initializing journal - 0%....20%....40%....60%....80%....100%
+Syncing..ok
+ReiserFS is successfully created on /dev/sdb1.
+##Tiempo Final:##
+16:39:20:824612775 - 1435433960
+##################
+Se monta /dev/usb1
+##################

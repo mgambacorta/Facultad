@@ -1,0 +1,9 @@
+Inicio del script y de f): 14:57:17:480761656 - 1436032637
+Fin del script y de f): 14:57:23:188919940 - 1436032643
+Se verifica el espacio -h
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1        2,0G   1,9G  141M  94% /media/usb
+Se verifica el espacio -i
+S.ficheros     Nodos-i NUsados NLibres NUso% Montado en
+/dev/sdb1       176716     -11  176727    0% /media/usb
+Fragmentacion

@@ -1,0 +1,25 @@
+###################### MANUAL DE USO #########################
+
+0)Posicionarse en el directorio /Ejercicio1
+1)Ejecutar make 
+2)Ejecutar ./Ejercicio1 <Archivo_Configuracion.txt>
+NOTA: "Archivo_Configuracion.txt" es el nombre del artchivo que contiene la configuracion del programa. 
+
+El Archivo de configuracion debera contener la siguiente informacion:
+M: Cantidad de Mineros
+D: Capacidad del deposito de hierro
+S: Capacidad del deposito de espadas
+E: Capacidad del deposito de escudos
+A: Capacidad del deposito de armaduras
+W: Numero de Soldados
+
+Ejemplo del archivo de configuracion:
+M:3
+D:4
+S:3
+E:2
+A:2
+W:5
+
+
+

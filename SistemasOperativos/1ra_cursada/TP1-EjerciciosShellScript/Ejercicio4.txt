@@ -1,0 +1,5 @@
+mmaria:x:1000:1000:Marta Maria:/home/alumnos/1354/mmaria:/bin/bash:11/09/13
+pecarnvoale:x:1001:1001:Pablo Carnovale,1,1531333333,4691-0759:/home/alumnos/1554/pecarnvoale:/bin/bash:11 de 09 de 2013
+ahernandez:x:1002:1002:Agustin Hrnandez,,,:/home/alumnos/3900/ahernandez:/bin/bash:11-09-2013 18:31:09
+mgambacorta:x:1003:1003:Mariano Gambacorta,,,:/home/alumnos/3900/mgambacorta:/bin/bash:11-09-2013 18:31:10
+fmancini:x:1004:1004:Fabian Mancini,,,:/home/alumnos/3900/fmancini:/bin/bash:11-09-2013 18:31:11

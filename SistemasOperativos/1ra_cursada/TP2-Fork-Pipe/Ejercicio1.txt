@@ -1,0 +1,14 @@
+/*****************************************************
+* Trabajo Practico Nro 2 - Ejercicio Nro 1           *
+******************************************************
+*                                                    *
+* Nombre:  Ejercicio2.c                              *
+* Autores: Mariano Gambacorta DNI: 29279015          *
+*          Pablo Carnovale    DNI: 33116185          *
+*          Marcelo Romero     DNI: 34140911          *
+* Entrega: 1ra entrega                               *
+* Fecha:   06/10/2014                                *
+*                                                    *
+******************************************************/
+
+El ejercicio 1 se entrega en forma impresa junto con la caratula del trabajo practico.

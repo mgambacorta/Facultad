@@ -1,0 +1,31 @@
+
+##################
+Se desmonta /dev/sdb1
+##################
+
+###Formatea EN EXT4 EN 32KB=32768 bytes##
+
+##Tiempo Inicial##: 
+16:00:37:018557457 - 1435431637
+Etiqueta del sistema de ficheros=
+OS type: Linux
+Tamaño del bloque=32768 (bitácora=5)
+Tamaño del fragmento=32768 (bitácora=5)
+Stride=0 blocks, Stripe width=0 blocks
+65408 inodes, 65528 blocks
+3276 blocks (5.00%) reserved for the super user
+Primer bloque de datos=0
+1 bloque de grupo
+65528 bloques por grupo, 65528 fragmentos por grupo
+65408 nodos-i por grupo
+
+Allocating group tables: 0/1   hecho                           
+Escribiendo las tablas de nodos-i: 0/1   hecho                           
+Creating journal (4096 blocks): hecho
+Escribiendo superbloques y la información contable del sistema de ficheros: 0/1   hecho
+
+##Tiempo Final:##
+16:01:02:493234026 - 1435431662
+##################
+Se monta /dev/usb1
+##################

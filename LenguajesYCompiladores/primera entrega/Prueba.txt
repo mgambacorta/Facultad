@@ -1,0 +1,29 @@
+
+VAR
+	[ INT, INT, FLOAT, STRING, FLOAT ] : [ var_1, var_2, pi, entrada, seleccion ]
+	[ STRING ] : [ buffer ]
+ENDVAR
+	
+pi := 3.14159
+var_1 := 1
+var_2 := 10
+
+--/ Esto es un comentario /--
+PRINT( "Iniciando Programa" )
+
+REPEAT
+	[ var_1, var_2 ] := [ var_1 + 1, var_2 - 2 ]
+
+	IF( var_1 == var_2 )
+		PRINT( "Las variables coincidieron" )
+	ENDIF
+	
+UNTIL( var_1 <= var_2 AND var_1 <> var_2 )
+
+
+PRINT( "Ingrese un valor" )
+READ( entrada )
+PRINT( "Usted ingreso:" )
+PRINT( entrada )
+
+seleccion := FILTER( _ < 4, [ var_1, var_2, pi ] )

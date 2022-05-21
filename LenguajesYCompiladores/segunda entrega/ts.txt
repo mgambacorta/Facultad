@@ -1,0 +1,19 @@
+ NOMBRE                              | TIPO            | VALOR                               | LONGITUD 
+---------------------------------------------------------------------------------------------------------
+ var_1                               | INT             | -                                   |  
+ var_2                               | INT             | -                                   |  
+ pi                                  | FLOAT           | -                                   |  
+ buffer                              | STRING          | -                                   |  
+ _3.14159                            | CTE_FLOAT       | 3.14159                             |  
+ _1                                  | CTE_INT         | 1                                   |  
+ _10                                 | CTE_INT         | 10                                  |  
+ _"Iniciando Programa"               | CTE_STRING      | "Iniciando Programa"                | 20 
+ _2                                  | CTE_INT         | 2                                   |  
+ _"Las variables coincidieron"       | CTE_STRING      | "Las variables coincidieron"        | 28 
+ _"No se cruzaron"                   | CTE_STRING      | "No se cruzaron"                    | 16 
+ _"Ingrese un valor"                 | CTE_STRING      | "Ingrese un valor"                  | 18 
+ _"Usted ingreso:"                   | CTE_STRING      | "Usted ingreso:"                    | 16 
+ _7                                  | CTE_INT         | 7                                   |  
+ _254                                | CTE_INT         | 254                                 |  
+ _4                                  | CTE_INT         | 4                                   |  
+ _"La variable esta en la lista"     | CTE_STRING      | "La variable esta en la lista"      | 30 

@@ -1,0 +1,32 @@
+
+VAR
+	[ INT, INT, FLOAT ] : [ var_1, var_2, pi ]
+	[ STRING ] : [ buffer ]
+ENDVAR
+	
+pi := 3.14159
+var_1 := 1
+var_2 := 10
+
+--/ Esto es un comentario /--
+PRINT( "Iniciando Programa" )
+
+REPEAT
+	[ var_1, var_2 ] := [ var_1 + 1, var_2 - 2 ]
+
+	IF( var_1 == var_2 AND var_2 > pi )
+		PRINT( "Las variables coincidieron" )
+	ELSE
+		PRINT( "No se cruzaron" )
+	ENDIF
+
+UNTIL( var_1 <= var_2 AND var_1 <> var_2 )
+
+PRINT( "Ingrese un valor" )
+READ( buffer )
+PRINT( "Usted ingreso:" )
+PRINT( buffer )
+
+IF( INLIST( pi; [ 3.14159; 7*2; 254+2*1; (2+2)*4 ] ) )
+	PRINT("La variable esta en la lista")
+ENDIF

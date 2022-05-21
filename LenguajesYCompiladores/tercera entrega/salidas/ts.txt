@@ -1,0 +1,62 @@
+ NOMBRE                              | TIPO            | VALOR                               | LONGITUD 
+---------------------------------------------------------------------------------------------------------
+ var_1                               | INT             | -                                   |  
+ var_2                               | INT             | -                                   |  
+ pi                                  | FLOAT           | -                                   |  
+ buffer                              | STRING          | -                                   |  
+ _3.14159                            | CTE_FLOAT       | 3.14159                             |  
+ _4                                  | CTE_INT         | 4                                   |  
+ _6                                  | CTE_INT         | 6                                   |  
+ _2                                  | CTE_INT         | 2                                   |  
+ _3                                  | CTE_INT         | 3                                   |  
+ _Iniciando_Programa                 | CTE_STRING      | "Iniciando Programa"                | 20 
+ _1                                  | CTE_INT         | 1                                   |  
+ _Las_variables_coincidieron         | CTE_STRING      | "Las variables coincidieron"        | 28 
+ _var_2_es_mayor_que_pi              | CTE_STRING      | "var_2 es mayor que pi"             | 23 
+ _No_se_cruzaron                     | CTE_STRING      | "No se cruzaron"                    | 16 
+ _Ingrese_un_valor                   | CTE_STRING      | "Ingrese un valor"                  | 18 
+ _Usted_ingreso:                     | CTE_STRING      | "Usted ingreso:"                    | 16 
+ _7                                  | CTE_INT         | 7                                   |  
+ _254                                | CTE_INT         | 254                                 |  
+ _La_variable_esta_en_la_lista       | CTE_STRING      | "La variable esta en la lista"      | 30 
+ @var_0                              | FLOAT           | -                                   |  
+ @var_2                              | FLOAT           | -                                   |  
+ @var_3                              | FLOAT           | -                                   |  
+ @var_4                              | FLOAT           | -                                   |  
+ @var_5                              | FLOAT           | -                                   |  
+ @var_6                              | FLOAT           | -                                   |  
+ @var_8                              | FLOAT           | -                                   |  
+ @var_9                              | FLOAT           | -                                   |  
+ @var_10                             | FLOAT           | -                                   |  
+ @var_11                             | FLOAT           | -                                   |  
+ @var_12                             | FLOAT           | -                                   |  
+ @var_15                             | FLOAT           | -                                   |  
+ @var_16                             | FLOAT           | -                                   |  
+ @var_17                             | FLOAT           | -                                   |  
+ @var_19                             | FLOAT           | -                                   |  
+ @var_20                             | FLOAT           | -                                   |  
+ @var_21                             | FLOAT           | -                                   |  
+ @var_23                             | FLOAT           | -                                   |  
+ @var_24                             | FLOAT           | -                                   |  
+ @var_27                             | FLOAT           | -                                   |  
+ @var_28                             | FLOAT           | -                                   |  
+ @var_31                             | FLOAT           | -                                   |  
+ @var_32                             | FLOAT           | -                                   |  
+ @var_40                             | FLOAT           | -                                   |  
+ @var_41                             | FLOAT           | -                                   |  
+ @var_44                             | FLOAT           | -                                   |  
+ @var_45                             | FLOAT           | -                                   |  
+ @var_52                             | FLOAT           | -                                   |  
+ @var_55                             | FLOAT           | -                                   |  
+ @var_56                             | FLOAT           | -                                   |  
+ @var_57                             | FLOAT           | -                                   |  
+ @var_60                             | FLOAT           | -                                   |  
+ @var_61                             | FLOAT           | -                                   |  
+ @var_62                             | FLOAT           | -                                   |  
+ @var_63                             | FLOAT           | -                                   |  
+ @var_64                             | FLOAT           | -                                   |  
+ @var_67                             | FLOAT           | -                                   |  
+ @var_68                             | FLOAT           | -                                   |  
+ @var_69                             | FLOAT           | -                                   |  
+ @var_70                             | FLOAT           | -                                   |  
+ @var_71                             | FLOAT           | -                                   |  

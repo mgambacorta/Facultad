@@ -1,0 +1,16 @@
+ NOMBRE                         | TIPO            | VALOR                          | LONGITUD 
+ var_1                          |                 | -                              |  
+ var_2                          |                 | -                              |  
+ pi                             |                 | -                              |  
+ entrada                        |                 | -                              |  
+ seleccion                      |                 | -                              |  
+ buffer                         |                 | -                              |  
+ _3.141590                      |                 | 3.141590                       |  
+ _1                             |                 | 1                              |  
+ _10                            |                 | 10                             |  
+ _"Iniciando"                   |                 | "Iniciando"                    | 11 
+ _2                             |                 | 2                              |  
+ _"Las variables coincidieron"  |                 | "Las variables coincidieron"   | 28 
+ _"Ingrese un valor"            |                 | "Ingrese un valor"             | 18 
+ _"Usted ingreso:"              |                 | "Usted ingreso:"               | 16 
+ _4                             |                 | 4                              |  

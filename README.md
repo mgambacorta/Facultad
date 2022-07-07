@@ -61,3 +61,15 @@
 * C
 * Assembler
 
+## Análisis de Software - 2022 1º Cuatrimestre
+
+* Programa triangulo para aplicar metodos de testeo
+* Reingeniería de Software según modelo de calidad
+* Herramienta para gestión de testing
+
+### Herramientas utilizadas
+
+* Java
+* JavaScript
+* React
+
